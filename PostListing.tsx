@@ -2,7 +2,7 @@
 import React, { useState, useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Camera, MapPin, List, DollarSign, Bed, Bath, Plus, Info, CheckCircle, Loader2, Sparkles, UserPlus, Briefcase, Phone, MessageSquare, ShieldCheck, FileText, Upload, Check, Zap, Droplets, Car, Lock, Shield, LayoutGrid, Trash2 } from 'lucide-react';
-import { AppContext } from '../App';
+import { AppContext } from './App';
 import { CITIES, CATEGORIES } from '../constants';
 import { ListingCategory, ListingStatus, UserRole } from '../types';
 import { analyzeListingDescription } from '../geminiService';
