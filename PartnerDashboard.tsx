@@ -16,7 +16,7 @@ import {
 } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
 import { AppContext } from './App';
-import { UserRole } from '../types';
+import { UserRole } from './types';
 
 const PartnerDashboard: React.FC = () => {
   const { user, listings } = useContext(AppContext)!;
