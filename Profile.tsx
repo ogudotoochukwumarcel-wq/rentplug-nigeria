@@ -1,6 +1,6 @@
 
 import React, { useContext } from 'react';
-import { AppContext } from '../App';
+import { AppContext } from './App';
 import { UserRole } from '../types';
 import { Settings, Edit3, ShieldCheck, Phone, Mail, LogOut, ChevronRight, Heart, Home as HomeIcon, UserPlus, Briefcase } from 'lucide-react';
 import ListingCard from '../components/ListingCard';
