@@ -2,7 +2,7 @@
 import React, { useState, useContext } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import { Phone, Mail, ArrowRight, ShieldCheck, User as UserIcon, Building2, Info, CheckCircle } from 'lucide-react';
-import { AppContext } from '../App';
+import { AppContext } from './App';
 import { UserRole } from '../types';
 
 const Auth: React.FC = () => {
