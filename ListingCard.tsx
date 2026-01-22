@@ -3,7 +3,7 @@ import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { MapPin, Bed, Bath, Heart, ShieldCheck } from 'lucide-react';
 import { Listing } from '../types';
-import { AppContext } from '../App';
+import { AppContext } from './App';
 
 interface Props {
   listing: Listing;
