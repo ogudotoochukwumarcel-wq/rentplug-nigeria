@@ -7,7 +7,7 @@ import {
     MessageCircle, ArrowLeft, Maximize2,
     Check, X, ExternalLink, AlertTriangle, Zap, Droplets, Car, Lock, Shield, LayoutGrid
 } from 'lucide-react';
-import { AppContext } from '../App';
+import { AppContext } from './App';
 import { format } from 'date-fns';
 
 const AMENITY_ICONS: Record<string, React.ReactNode> = {
