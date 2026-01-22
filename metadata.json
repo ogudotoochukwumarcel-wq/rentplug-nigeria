@@ -1,0 +1,8 @@
+{
+  "name": "RentPlug Nigeria",
+  "description": "A premium rental marketplace for Owerri and Enugu, Nigeria, connecting renters with verified landlords and agents.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}
