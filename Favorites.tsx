@@ -1,7 +1,7 @@
 
 import React, { useContext, useEffect } from 'react';
-import { AppContext } from '../App';
-import ListingCard from '../components/ListingCard';
+import { AppContext } from './App';
+import ListingCard from './ListingCard';
 import { Heart, Search, ArrowLeft } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
 
