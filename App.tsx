@@ -32,22 +32,22 @@ import { MOCK_LISTINGS, MOCK_USERS, ADMIN_NUMBERS } from './constants';
 import { Listing, User, UserRole, Notification } from './types';
 
 // Pages
-import Home from './pages/Home';
-import ListingDetail from './pages/ListingDetail';
-import PostListing from './pages/PostListing';
-import Auth from './pages/Auth';
-import Profile from './pages/Profile';
-import AdminDashboard from './pages/AdminDashboard';
-import Safety from './pages/Safety';
-import Favorites from './pages/Favorites';
-import VerifiedBadge from './pages/VerifiedBadge';
-import About from './pages/About';
-import ContactSupport from './pages/ContactSupport';
-import ReportScam from './pages/ReportScam';
-import PrivacyPolicy from './pages/PrivacyPolicy';
-import TermsOfService from './pages/TermsOfService';
-import PartnerDashboard from './pages/PartnerDashboard';
-
+// Pages
+import Home from './Home';
+import ListingDetail from './ListingDetail';
+import PostListing from './PostListing';
+import Auth from './Auth';
+import Profile from './Profile';
+import AdminDashboard from './AdminDashboard';
+import Safety from './Safety';
+import Favorites from './Favorites';
+import VerifiedBadge from './VerifiedBadge';
+import About from './About';
+import ContactSupport from './ContactSupport';
+import ReportScam from './ReportScam';
+import PrivacyPolicy from './PrivacyPolicy';
+import TermsOfService from './TermsOfService';
+import PartnerDashboard from './PartnerDashboard';
 // Context
 interface AppContextType {
   user: User | null;
