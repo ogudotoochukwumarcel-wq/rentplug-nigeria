@@ -1,7 +1,7 @@
 
 import React, { useContext, useState, useEffect } from 'react';
 import { Search, MapPin, SlidersHorizontal, ArrowRight, TrendingUp, Shield, Zap, Home as HomeIcon, MessageCircle } from 'lucide-react';
-import { AppContext } from './App'
+import { AppContext } from './App';
 import { CATEGORIES, CITIES } from './constants';
 import ListingCard from './ListingCard';
 
