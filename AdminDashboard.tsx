@@ -13,7 +13,7 @@ import {
     User,
     ArrowRight
 } from 'lucide-react';
-import { AppContext } from '../App';
+import { AppContext } from './App';
 import { ListingStatus, UserRole } from '../types';
 import { ADMIN_NUMBERS } from '../constants';
 
