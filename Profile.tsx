@@ -3,9 +3,8 @@ import React, { useContext } from 'react';
 import { AppContext } from './App';
 import { UserRole } from './types';
 import { Settings, Edit3, ShieldCheck, Phone, Mail, LogOut, ChevronRight, Heart, Home as HomeIcon, UserPlus, Briefcase } from 'lucide-react';
-import ListingCard from "./components/ListingCard";
 import { Link, useNavigate } from 'react-router-dom';
-
+import ListingCard from "./src/components/ListingCard";
 const Profile: React.FC = () => {
   const { user, setUser, listings, favorites } = useContext(AppContext)!;
   const navigate = useNavigate();
